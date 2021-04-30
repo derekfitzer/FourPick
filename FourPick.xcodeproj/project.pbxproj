@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2812FE4C263C7A9A008469BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FE4B263C7A9A008469BC /* AppDelegate.swift */; };
+		2812FE4E263C7A9A008469BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FE4D263C7A9A008469BC /* SceneDelegate.swift */; };
+		2812FE50263C7A9A008469BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FE4F263C7A9A008469BC /* ViewController.swift */; };
+		2812FE53263C7A9A008469BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812FE51263C7A9A008469BC /* Main.storyboard */; };
+		2812FE55263C7A9B008469BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2812FE54263C7A9B008469BC /* Assets.xcassets */; };
+		2812FE58263C7A9B008469BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812FE56263C7A9B008469BC /* LaunchScreen.storyboard */; };
+		2812FE63263C7A9C008469BC /* FourPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FE62263C7A9C008469BC /* FourPickTests.swift */; };
+		2812FE6E263C7A9C008469BC /* FourPickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812FE6D263C7A9C008469BC /* FourPickUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2812FE5F263C7A9C008469BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2812FE40263C7A9A008469BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2812FE47263C7A9A008469BC;
+			remoteInfo = FourPick;
+		};
+		2812FE6A263C7A9C008469BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2812FE40263C7A9A008469BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2812FE47263C7A9A008469BC;
+			remoteInfo = FourPick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2812FE48263C7A9A008469BC /* FourPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812FE4B263C7A9A008469BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2812FE4D263C7A9A008469BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2812FE4F263C7A9A008469BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2812FE52263C7A9A008469BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2812FE54263C7A9B008469BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2812FE57263C7A9B008469BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2812FE59263C7A9B008469BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812FE5E263C7A9C008469BC /* FourPickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourPickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812FE62263C7A9C008469BC /* FourPickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourPickTests.swift; sourceTree = "<group>"; };
+		2812FE64263C7A9C008469BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2812FE69263C7A9C008469BC /* FourPickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourPickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2812FE6D263C7A9C008469BC /* FourPickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourPickUITests.swift; sourceTree = "<group>"; };
+		2812FE6F263C7A9C008469BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2812FE45263C7A9A008469BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FE5B263C7A9C008469BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FE66263C7A9C008469BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2812FE3F263C7A9A008469BC = {
+			isa = PBXGroup;
+			children = (
+				2812FE4A263C7A9A008469BC /* FourPick */,
+				2812FE61263C7A9C008469BC /* FourPickTests */,
+				2812FE6C263C7A9C008469BC /* FourPickUITests */,
+				2812FE49263C7A9A008469BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2812FE49263C7A9A008469BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2812FE48263C7A9A008469BC /* FourPick.app */,
+				2812FE5E263C7A9C008469BC /* FourPickTests.xctest */,
+				2812FE69263C7A9C008469BC /* FourPickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2812FE4A263C7A9A008469BC /* FourPick */ = {
+			isa = PBXGroup;
+			children = (
+				2812FE4B263C7A9A008469BC /* AppDelegate.swift */,
+				2812FE4D263C7A9A008469BC /* SceneDelegate.swift */,
+				2812FE4F263C7A9A008469BC /* ViewController.swift */,
+				2812FE51263C7A9A008469BC /* Main.storyboard */,
+				2812FE54263C7A9B008469BC /* Assets.xcassets */,
+				2812FE56263C7A9B008469BC /* LaunchScreen.storyboard */,
+				2812FE59263C7A9B008469BC /* Info.plist */,
+			);
+			path = FourPick;
+			sourceTree = "<group>";
+		};
+		2812FE61263C7A9C008469BC /* FourPickTests */ = {
+			isa = PBXGroup;
+			children = (
+				2812FE62263C7A9C008469BC /* FourPickTests.swift */,
+				2812FE64263C7A9C008469BC /* Info.plist */,
+			);
+			path = FourPickTests;
+			sourceTree = "<group>";
+		};
+		2812FE6C263C7A9C008469BC /* FourPickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2812FE6D263C7A9C008469BC /* FourPickUITests.swift */,
+				2812FE6F263C7A9C008469BC /* Info.plist */,
+			);
+			path = FourPickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2812FE47263C7A9A008469BC /* FourPick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812FE72263C7A9C008469BC /* Build configuration list for PBXNativeTarget "FourPick" */;
+			buildPhases = (
+				2812FE44263C7A9A008469BC /* Sources */,
+				2812FE45263C7A9A008469BC /* Frameworks */,
+				2812FE46263C7A9A008469BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourPick;
+			productName = FourPick;
+			productReference = 2812FE48263C7A9A008469BC /* FourPick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2812FE5D263C7A9C008469BC /* FourPickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812FE75263C7A9C008469BC /* Build configuration list for PBXNativeTarget "FourPickTests" */;
+			buildPhases = (
+				2812FE5A263C7A9C008469BC /* Sources */,
+				2812FE5B263C7A9C008469BC /* Frameworks */,
+				2812FE5C263C7A9C008469BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2812FE60263C7A9C008469BC /* PBXTargetDependency */,
+			);
+			name = FourPickTests;
+			productName = FourPickTests;
+			productReference = 2812FE5E263C7A9C008469BC /* FourPickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2812FE68263C7A9C008469BC /* FourPickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2812FE78263C7A9C008469BC /* Build configuration list for PBXNativeTarget "FourPickUITests" */;
+			buildPhases = (
+				2812FE65263C7A9C008469BC /* Sources */,
+				2812FE66263C7A9C008469BC /* Frameworks */,
+				2812FE67263C7A9C008469BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2812FE6B263C7A9C008469BC /* PBXTargetDependency */,
+			);
+			name = FourPickUITests;
+			productName = FourPickUITests;
+			productReference = 2812FE69263C7A9C008469BC /* FourPickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2812FE40263C7A9A008469BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2812FE47263C7A9A008469BC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2812FE5D263C7A9C008469BC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2812FE47263C7A9A008469BC;
+					};
+					2812FE68263C7A9C008469BC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2812FE47263C7A9A008469BC;
+					};
+				};
+			};
+			buildConfigurationList = 2812FE43263C7A9A008469BC /* Build configuration list for PBXProject "FourPick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2812FE3F263C7A9A008469BC;
+			productRefGroup = 2812FE49263C7A9A008469BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2812FE47263C7A9A008469BC /* FourPick */,
+				2812FE5D263C7A9C008469BC /* FourPickTests */,
+				2812FE68263C7A9C008469BC /* FourPickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2812FE46263C7A9A008469BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FE58263C7A9B008469BC /* LaunchScreen.storyboard in Resources */,
+				2812FE55263C7A9B008469BC /* Assets.xcassets in Resources */,
+				2812FE53263C7A9A008469BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FE5C263C7A9C008469BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FE67263C7A9C008469BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2812FE44263C7A9A008469BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FE50263C7A9A008469BC /* ViewController.swift in Sources */,
+				2812FE4C263C7A9A008469BC /* AppDelegate.swift in Sources */,
+				2812FE4E263C7A9A008469BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FE5A263C7A9C008469BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FE63263C7A9C008469BC /* FourPickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2812FE65263C7A9C008469BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2812FE6E263C7A9C008469BC /* FourPickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2812FE60263C7A9C008469BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2812FE47263C7A9A008469BC /* FourPick */;
+			targetProxy = 2812FE5F263C7A9C008469BC /* PBXContainerItemProxy */;
+		};
+		2812FE6B263C7A9C008469BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2812FE47263C7A9A008469BC /* FourPick */;
+			targetProxy = 2812FE6A263C7A9C008469BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2812FE51263C7A9A008469BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2812FE52263C7A9A008469BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2812FE56263C7A9B008469BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2812FE57263C7A9B008469BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2812FE70263C7A9C008469BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2812FE71263C7A9C008469BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2812FE73263C7A9C008469BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567V8M23JU;
+				INFOPLIST_FILE = FourPick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrfitzer.FourPick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2812FE74263C7A9C008469BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567V8M23JU;
+				INFOPLIST_FILE = FourPick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrfitzer.FourPick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2812FE76263C7A9C008469BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567V8M23JU;
+				INFOPLIST_FILE = FourPickTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrfitzer.FourPickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourPick.app/FourPick";
+			};
+			name = Debug;
+		};
+		2812FE77263C7A9C008469BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567V8M23JU;
+				INFOPLIST_FILE = FourPickTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrfitzer.FourPickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourPick.app/FourPick";
+			};
+			name = Release;
+		};
+		2812FE79263C7A9C008469BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567V8M23JU;
+				INFOPLIST_FILE = FourPickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrfitzer.FourPickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FourPick;
+			};
+			name = Debug;
+		};
+		2812FE7A263C7A9C008469BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567V8M23JU;
+				INFOPLIST_FILE = FourPickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrfitzer.FourPickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FourPick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2812FE43263C7A9A008469BC /* Build configuration list for PBXProject "FourPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FE70263C7A9C008469BC /* Debug */,
+				2812FE71263C7A9C008469BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812FE72263C7A9C008469BC /* Build configuration list for PBXNativeTarget "FourPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FE73263C7A9C008469BC /* Debug */,
+				2812FE74263C7A9C008469BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812FE75263C7A9C008469BC /* Build configuration list for PBXNativeTarget "FourPickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FE76263C7A9C008469BC /* Debug */,
+				2812FE77263C7A9C008469BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2812FE78263C7A9C008469BC /* Build configuration list for PBXNativeTarget "FourPickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2812FE79263C7A9C008469BC /* Debug */,
+				2812FE7A263C7A9C008469BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2812FE40263C7A9A008469BC /* Project object */;
+}
